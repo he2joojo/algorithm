@@ -7,7 +7,7 @@ def solution(user_id, banned_id):
     answer = []
     for case in cases:
         if check(case, banned_id):
-            case = set(case)    # set()해주면 자동으로 정렬해줌!
+            case = set(case)    # set()해주면 숫자는 자동으로 정렬해줌
             if case not in answer:
                 answer.append(case)
 
